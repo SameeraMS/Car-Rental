@@ -64,7 +64,7 @@ header {
 }
 
 .navbar a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 10px 20px;
     color: var(--text-color);
     font-weight: 500;
@@ -106,4 +106,47 @@ header {
 
 .header-btn .sign-in:hover {
     background: var(--main-color);
+}
+
+.logo i{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+/* home */
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.text h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+.text span {
+    color: var(--main-color);
+}
+
+.text p {
+    margin: 00.5rem 0 1rem;
+}
+
+.app-stores {
+    display: flex;
+}
+
+.app-stores img {
+    width: 100px;
+    margin-right: 1rem;
+    cursor: pointer;
 }
