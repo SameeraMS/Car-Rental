@@ -96,6 +96,12 @@
         padding: 1rem;
         order: 2;
     }
+
+    .home-img img {
+        display: flex;
+        width: 100%;
+        padding: 1rem;
+        order: 1;}
 }
 
 @media (max-width: 568px) {

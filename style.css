@@ -151,6 +151,9 @@ header {
     cursor: pointer;
 }
 
+.home-img img {
+    display: none;
+}
 
 
 /* ride */
